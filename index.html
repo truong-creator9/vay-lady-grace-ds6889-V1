@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LADY GRACE - SET Thiết Kế Cao Cấp</title>
+    <meta name="description" content="Set váy thiết kế LADY GRACE cao cấp. Thanh lịch, sang trọng tôn vóc dáng. Khuyến mãi lên đến 50%. Mua ngay!">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        nude: '#FDF8F5',
+                        'nude-dark': '#2A201E',
+                        primary: '#FF5722',
+                        secondary: '#D84315',
+                        'card-light': '#FFFFFF',
+                        'card-dark': '#382D2A',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        cursive: ['Dancing Script', 'cursive'],
+                    },
+                    boxShadow: {
+                        'premium': '0 10px 40px -10px rgba(0,0,0,0.08)',
+                    },
+                    animation: {
+                        'wiggle': 'wiggle 1s ease-in-out infinite',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        wiggle: {
+                            '0%, 100%': { transform: 'rotate(-10deg)' },
+                            '50%': { transform: 'rotate(10deg)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            14% { transform: scale(1.05); }
+            28% { transform: scale(1); }
+            42% { transform: scale(1.05); }
+            70% { transform: scale(1); }
+        }
+        .animate-heartbeat { animation: heartbeat 2s infinite; }
+        .bg-cta-gradient { background: linear-gradient(135deg, #FF5722 0%, #D84315 100%); }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); }
+        .dark .glass { background: rgba(42, 32, 30, 0.8); border: 1px solid rgba(255, 255, 255, 0.05); }
+        input:focus, select:focus, textarea:focus { outline: none; border-color: #FF5722; box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.2); }
+    </style>
+</head>
+<body class="bg-nude dark:bg-nude-dark text-gray-800 dark:text-gray-200 antialiased font-sans transition-colors duration-300 pb-20">
+
+    <button id="theme-toggle" class="fixed top-4 right-4 z-50 p-3 rounded-full bg-white dark:bg-card-dark shadow-md text-gray-800 dark:text-gray-200 focus:outline-none transition-transform hover:scale-110">
+        <i id="theme-icon" class="fa-solid fa-moon text-lg"></i>
+    </button>
+
+    <div class="max-w-md mx-auto bg-white dark:bg-card-dark sm:max-w-lg md:max-w-2xl lg:max-w-4xl shadow-premium min-h-screen overflow-hidden">
+        
+        <section id="hero" class="relative bg-nude pt-8 pb-16 flex flex-col items-center text-center overflow-hidden z-10">
+            <!-- Decorative Background Blocks -->
+            <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#f8dfca] to-transparent pointer-events-none -z-10"></div>
+            <div class="absolute left-[-20px] top-[30%] w-32 h-64 bg-[#f2cca0] opacity-40 skew-y-12 -z-10"></div>
+            <div class="absolute right-[-20px] bottom-[20%] w-48 h-48 bg-[#f5d7cf] opacity-60 -skew-y-12 -z-10"></div>
+
+            <!-- Header Texts -->
+            <h2 class="font-cursive text-4xl md:text-5xl font-bold text-[#1a110d] tracking-wide mb-3 drop-shadow-sm px-4">
+                SET Thiết Kế Cao Cấp
+            </h2>
+
+            <div class="bg-[#d5734e] text-white font-bold text-2xl md:text-3xl uppercase tracking-[0.1em] py-2 w-full max-w-[340px] z-10 relative shadow-[0_4px_10px_rgba(0,0,0,0.1)] mx-auto font-serif">
+                LADY GRACE
+            </div>
+
+            <div class="bg-white text-black font-semibold py-[6px] px-8 relative z-20 text-sm border-t-2 border-[#d5734e] mx-auto min-w-[220px] shadow-sm transform -translate-y-1">
+                Thanh Lịch & Sang trọng
+            </div>
+
+            <div class="mt-2 flex flex-col items-center w-full z-10 px-4">
+                <span class="text-[#2c404f] font-bold text-xs uppercase tracking-widest leading-none mt-2">Khuyến Mãi Giảm</span>
+                <div class="relative flex items-end justify-center leading-none mt-[-10px] mb-[-5px]">
+                    <span class="text-[8.5rem] font-serif text-[#ba3e2c] -tracking-tight">50</span>
+                    <div class="flex flex-col justify-end text-[#ba3e2c] pb-10 ml-2">
+                        <span class="text-5xl font-serif leading-none mb-[-5px]">%</span>
+                        <span class="text-sm font-bold uppercase whitespace-nowrap">OFF</span>
+                    </div>
+                    <!-- "Big sale" cursive overlay -->
+                    <span class="absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-[40%] -rotate-[15deg] font-cursive text-4xl text-[#f0a671] whitespace-nowrap opacity-90 filter drop-shadow-[1px_1px_0px_navajowhite]">
+                        Big sale
+                    </span>
+                </div>
+                
+                <div class="mt-0 border border-[#ba3e2c] bg-white px-8 py-1.5 flex items-center shadow-sm relative z-10">
+                    <span class="text-gray-500 italic line-through text-sm mr-3">1.390.000đ</span>
+                    <span class="text-[#7d1710] font-black text-lg">595.000đ</span>
+                </div>
+            </div>
+
+            <!-- Hero Image Container -->
+            <div class="mt-8 relative w-[85%] max-w-[320px] aspect-[4/5] mx-auto z-20">
+                <!-- Red Pillar / Tag behind image left -->
+                <div class="absolute -bottom-16 left-6 w-3 h-24 bg-[#e73928] -z-10 rounded-b-md"></div>
+                
+                <!-- Main Red Box with Border -->
+                <div class="absolute inset-0 rounded-[12px] border-[3px] border-[#a01f11] bg-[#f8f8f8] overflow-hidden shadow-premium flex justify-center items-center">
+                    <img src="Anh-DS6889/DS6889-1.jpg" alt="Váy LADY GRACE mã DS6889" class="w-[calc(100%-10px)] h-[calc(100%-10px)] object-cover rounded-[8px] object-top bg-white">
+                </div>
+
+                <!-- Call Button (Bottom Left) -->
+                <a href="tel:0901123456" class="absolute -left-7 -bottom-7 w-16 h-16 bg-gradient-to-t from-[#e97415] to-[#fab12f] rounded-full flex items-center justify-center text-white text-[28px] shadow-[0_5px_15px_rgba(235,116,21,0.5)] border-[4px] border-white/80 animate-wiggle z-30">
+                    <i class="fa-solid fa-phone transform rotate-[-10deg]"></i>
+                </a>
+
+                <!-- Pointing Hand Icon -->
+                <div class="absolute left-14 -bottom-6 text-[#fb4e46] text-[26px] -rotate-[15deg] animate-pulse z-30">
+                    <i class="fa-regular fa-hand-point-right"></i>
+                </div>
+
+                <!-- Buy Button (Bottom Right) -->
+                <a href="#checkout" class="absolute -right-4 -bottom-6 bg-[#fb463b] text-white font-bold text-lg px-8 py-2.5 rounded-full flex items-center justify-center z-30 shadow-[0_5px_15px_rgba(251,70,59,0.5)] border-[3px] border-white/80 hover:scale-105 transition w-[160px] tracking-wide">
+                    MUA NGAY
+                </a>
+            </div>
+        </section>
+
+        <section id="social-proof" class="bg-red-50 dark:bg-red-900/20 px-5 py-3 flex items-center justify-between text-sm">
+            <div class="flex items-center gap-2 text-red-600 dark:text-red-400 font-medium animate-pulse-slow">
+                <i class="fa-solid fa-fire text-lg"></i>
+                <span>Đang có 800 người xem</span>
+            </div>
+            <div class="text-xs text-gray-600 dark:text-gray-400">
+                <span class="font-bold text-yellow-500">4.9 <i class="fa-solid fa-star"></i></span> (1.2k) | 13.8k Đã bán
+            </div>
+        </section>
+
+        <div class="bg-red-600 text-white text-center py-2 text-xs font-bold tracking-wide">
+            <i class="fa-solid fa-triangle-exclamation mr-1"></i> SẮP HẾT HÀNG: CHỈ CÒN 50 SẢN PHẨM CUỐI CÙNG!
+        </div>
+
+        <section id="gallery" class="py-6 px-5">
+            <h2 class="text-sm font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest mb-3">Hình ảnh chi tiết</h2>
+            <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-3 pb-2" id="image-carousel">
+                <img src="Anh-DS6889/DS6889-1.jpg" class="snap-center shrink-0 w-[85%] sm:w-[50%] h-[400px] object-cover rounded-xl shadow-md" alt="Góc chụp 1">
+                <img src="Anh-DS6889/DS6889-2.jpg" class="snap-center shrink-0 w-[85%] sm:w-[50%] h-[400px] object-cover rounded-xl shadow-md" alt="Góc chụp 2">
+                <img src="Anh-DS6889/DS6889-3.jpg" class="snap-center shrink-0 w-[85%] sm:w-[50%] h-[400px] object-cover rounded-xl shadow-md" alt="Góc chụp 3">
+                <img src="Anh-DS6889/DS6889-4.jpg" class="snap-center shrink-0 w-[85%] sm:w-[50%] h-[400px] object-cover rounded-xl shadow-md" alt="Góc chụp 4">
+            </div>
+            <p class="text-center text-xs text-gray-400 mt-2"><i class="fa-solid fa-arrows-left-right"></i> Vuốt để xem thêm</p>
+        </section>
+
+        <section id="flash-sale" class="px-5 mb-8">
+            <div class="bg-cta-gradient text-white rounded-2xl p-5 shadow-lg relative overflow-hidden">
+                <div class="absolute -right-10 -top-10 w-32 h-32 bg-white opacity-10 rounded-full"></div>
+                <div class="absolute -left-10 -bottom-10 w-24 h-24 bg-white opacity-10 rounded-full"></div>
+                <div class="relative z-10 text-center">
+                    <h3 class="text-xl font-bold mb-1">SIÊU ƯU ĐÃI TRONG NGÀY</h3>
+                    <p class="text-sm mb-4">Đặt mua ngay hôm nay để nhận <strong>GIẢM 50%</strong> & <strong>FREESHIP TOÀN QUỐC</strong></p>
+                    <p class="text-xs uppercase tracking-widest mb-2 opacity-90">Kết thúc sau:</p>
+                    <div class="flex justify-center gap-3">
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-2 w-16">
+                            <div class="text-2xl font-bold" id="days">00</div>
+                            <div class="text-[10px] uppercase">Ngày</div>
+                        </div>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-2 w-16">
+                            <div class="text-2xl font-bold" id="hours">11</div>
+                            <div class="text-[10px] uppercase">Giờ</div>
+                        </div>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-2 w-16">
+                            <div class="text-2xl font-bold" id="minutes">45</div>
+                            <div class="text-[10px] uppercase">Phút</div>
+                        </div>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-2 w-16 text-yellow-300">
+                            <div class="text-2xl font-bold" id="seconds">30</div>
+                            <div class="text-[10px] uppercase text-white">Giây</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trust-badges" class="px-3 mb-8">
+            <div class="grid grid-cols-3 gap-2">
+                <div class="bg-gray-50 dark:bg-card-dark border dark:border-gray-700 rounded-xl p-3 text-center flex flex-col items-center">
+                    <div class="w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-primary mb-2">
+                        <i class="fa-solid fa-box-open text-lg"></i>
+                    </div>
+                    <span class="text-[10px] md:text-xs font-semibold">Đổi trả linh hoạt<br>15 ngày</span>
+                </div>
+                <div class="bg-gray-50 dark:bg-card-dark border dark:border-gray-700 rounded-xl p-3 text-center flex flex-col items-center">
+                    <div class="w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-primary mb-2">
+                        <i class="fa-solid fa-shield-halved text-lg"></i>
+                    </div>
+                    <span class="text-[10px] md:text-xs font-semibold">Bảo hành<br>100% Chính hãng</span>
+                </div>
+                <div class="bg-gray-50 dark:bg-card-dark border dark:border-gray-700 rounded-xl p-3 text-center flex flex-col items-center">
+                    <div class="w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-primary mb-2">
+                        <i class="fa-solid fa-truck-fast text-lg"></i>
+                    </div>
+                    <span class="text-[10px] md:text-xs font-semibold">Miễn phí<br>Giao toàn quốc</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="specifications" class="px-5 mb-8">
+            <h2 class="text-2xl font-serif font-bold mb-4 border-b pb-2 dark:border-gray-700">Chi Tiết Chất Liệu</h2>
+            <ul class="space-y-3 text-sm mb-6">
+                <li class="flex items-start">
+                    <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                    <span><strong>Mã sản phẩm:</strong> DS6889</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                    <span><strong>Màu sắc:</strong> Tone Nude nhẹ nhàng, tôn da tuyệt đối.</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                    <span><strong>Chất liệu cao cấp:</strong> Chéo Ý nhập khẩu phối tơ dệt sợi nổi, mềm mại, thoáng mát và giữ form cực tốt.</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                    <span><strong>Thiết kế:</strong> Cổ đính nơ điệu đà kết hợp form dáng chữ A che khuyết điểm hoàn hảo.</span>
+                </li>
+            </ul>
+            <div class="grid grid-cols-3 gap-2">
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="Anh-DS6889/DS6889- Close-up shot - Detail shot - Texture shot 1.jpg" alt="Cận cảnh 1" class="w-full h-32 md:h-48 object-cover transition-transform duration-500 group-hover:scale-125">
+                </div>
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="Anh-DS6889/DS6889- Close-up shot - Detail shot - Texture shot 2.jpg" alt="Cận cảnh 2" class="w-full h-32 md:h-48 object-cover transition-transform duration-500 group-hover:scale-125">
+                </div>
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="Anh-DS6889/DS6889- Close-up shot - Detail shot - Texture shot 3.jpg" alt="Cận cảnh 3" class="w-full h-32 md:h-48 object-cover transition-transform duration-500 group-hover:scale-125">
+                </div>
+            </div>
+            <p class="text-center text-xs text-gray-500 italic mt-2">Ảnh chụp cận cảnh chất liệu</p>
+        </section>
+
+        <section id="product-video" class="px-5 mb-8">
+            <h2 class="text-2xl font-serif font-bold mb-4 border-b pb-2 dark:border-gray-700">Video Thực Tế</h2>
+            <div class="rounded-xl overflow-hidden shadow-lg mb-4 bg-black">
+                <video controls autoplay muted loop playsinline class="w-full aspect-[4/5] object-cover">
+                    <source src="Anh-DS6889/DS6889-Video.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+        </section>
+
+        <section id="size-guide" class="bg-white dark:bg-card-dark px-5 py-8 mb-8 border-y dark:border-gray-700">
+            <h2 class="text-2xl font-serif font-bold mb-4 text-center">Hướng Dẫn Chọn Size</h2>
+            <img src="Anh-DS6889/Size Guide.PNG" alt="Bảng hướng dẫn chọn size" class="w-full rounded-lg mb-4 border dark:border-gray-700">
+            <div class="bg-gray-50 dark:bg-nude-dark rounded-xl p-4 text-sm mt-4 text-center border dark:border-gray-700">
+                <p>💡 <strong>Lời khuyên:</strong> Nếu số đo của bạn nằm giữa 2 size, hãy chọn size lớn hơn để có cảm giác mặc thoải mái nhất.</p>
+            </div>
+        </section>
+
+        <section id="reviews" class="px-5 mb-8">
+            <h2 class="text-2xl font-serif font-bold mb-4 border-b pb-2 dark:border-gray-700">Khách Hàng Nói Gì?</h2>
+            <div class="space-y-4">
+                <div class="bg-white dark:bg-[#382D2A] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-full bg-pink-200 flex items-center justify-center font-bold text-pink-600">M</div>
+                            <div>
+                                <h4 class="font-bold text-sm">Minh Thư <i class="fa-solid fa-circle-check text-green-500 text-xs ml-1"></i></h4>
+                                <div class="text-xs text-yellow-400">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-xs text-gray-400">2 ngày trước</span>
+                    </div>
+                    <p class="text-sm">Váy y hình luôn shop ơi, chất vải tơ dệt mặc thích lắm. Form A che bụng cực tốt, mình 55kg mặc size L vừa in.</p>
+                </div>
+                <div class="bg-white dark:bg-[#382D2A] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-200 flex items-center justify-center font-bold text-blue-600">N</div>
+                            <div>
+                                <h4 class="font-bold text-sm">Ngọc Ánh <i class="fa-solid fa-circle-check text-green-500 text-xs ml-1"></i></h4>
+                                <div class="text-xs text-yellow-400">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-xs text-gray-400">5 ngày trước</span>
+                    </div>
+                    <p class="text-sm">Giao hàng nhanh, đóng gói xịn xò. Mua lúc sale còn 595k mà chất lượng như hàng tiền triệu. Mặc đi tiệc cưới ai cũng khen sang.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="checkout" class="px-5 mb-10 mt-10">
+            <div class="bg-white dark:bg-card-dark rounded-2xl shadow-xl overflow-hidden border border-orange-100 dark:border-gray-700">
+                <div class="bg-nude dark:bg-gray-800 p-5 text-center border-b dark:border-gray-700">
+                    <h2 class="text-2xl font-serif font-bold text-primary mb-1">ĐẶT HÀNG NGAY</h2>
+                    <p class="text-sm font-medium">Giữ ưu đãi giảm 50% & Freeship</p>
+                </div>
+                
+                <form class="p-5 space-y-4" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đặt hàng! Nhân viên LADY GRACE sẽ gọi lại để chốt đơn.');">
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Chọn Size *</label>
+                        <div class="grid grid-cols-4 gap-2">
+                            <label class="relative cursor-pointer">
+                                <input type="radio" name="size" value="S" class="peer sr-only" required>
+                                <div class="w-full p-2 text-center rounded-lg border border-gray-300 dark:border-gray-600 peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary transition uppercase font-bold">S</div>
+                            </label>
+                            <label class="relative cursor-pointer">
+                                <input type="radio" name="size" value="M" class="peer sr-only">
+                                <div class="w-full p-2 text-center rounded-lg border border-gray-300 dark:border-gray-600 peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary transition uppercase font-bold">M</div>
+                            </label>
+                            <label class="relative cursor-pointer">
+                                <input type="radio" name="size" value="L" class="peer sr-only">
+                                <div class="w-full p-2 text-center rounded-lg border border-gray-300 dark:border-gray-600 peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary transition uppercase font-bold">L</div>
+                            </label>
+                            <label class="relative cursor-pointer">
+                                <input type="radio" name="size" value="XL" class="peer sr-only">
+                                <div class="w-full p-2 text-center rounded-lg border border-gray-300 dark:border-gray-600 peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary transition uppercase font-bold">XL</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1" for="name">Họ và Tên *</label>
+                        <div class="relative">
+                            <i class="fa-solid fa-user absolute left-3 top-3.5 text-gray-400"></i>
+                            <input type="text" id="name" placeholder="Nhập tên của bạn" class="w-full pl-10 pr-3 py-3 rounded-lg border dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-base" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1" for="phone">Số điện thoại *</label>
+                        <div class="relative">
+                            <i class="fa-solid fa-phone absolute left-3 top-3.5 text-gray-400"></i>
+                            <input type="tel" id="phone" placeholder="Nhập số điện thoại" class="w-full pl-10 pr-3 py-3 rounded-lg border dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-base" pattern="[0-9]{10,11}" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1" for="address">Địa chỉ nhận hàng *</label>
+                        <div class="relative">
+                            <i class="fa-solid fa-location-dot absolute left-3 top-3.5 text-gray-400"></i>
+                            <textarea id="address" rows="2" placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành phố" class="w-full pl-10 pr-3 py-3 rounded-lg border dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-base resize-none" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 font-medium text-sm flex justify-between border dark:border-gray-700">
+                        <span>Tổng thanh toán (<span class="line-through text-xs text-gray-400">1.390K</span>):</span>
+                        <span class="text-primary text-xl font-bold">595.000đ</span>
+                    </div>
+
+                    <button type="submit" class="w-full bg-cta-gradient text-white font-bold text-xl py-4 rounded-xl shadow-lg mt-2 animate-heartbeat flex items-center justify-center gap-2">
+                        HOÀN TẤT ĐẶT HÀNG <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <p class="text-center text-xs text-gray-500 mt-2"><i class="fa-solid fa-shield-halved"></i> Thông tin của bạn được bảo mật tuyệt đối</p>
+                </form>
+            </div>
+        </section>
+
+        <footer id="footer" class="bg-[#2a2a2a] text-gray-300 py-8 px-5 mt-12 pb-24 md:pb-8">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-serif text-white font-bold tracking-widest mb-1">LADY GRACE</h2>
+                <p class="text-xs uppercase tracking-widest">Premium Fashion</p>
+            </div>
+            <div class="space-y-3 text-sm mb-6 text-center">
+                <p><i class="fa-solid fa-phone w-5"></i> Hotline: <strong>0901.123.456</strong></p>
+                <p><i class="fa-solid fa-envelope w-5"></i> Email: cskh@ladygrace.vn</p>
+                <p><i class="fa-solid fa-location-dot w-5"></i> Store: 123 Nguyễn Văn Cừ, Q.5, TP.HCM</p>
+            </div>
+            <p class="text-center text-xs mt-6 opacity-50">&copy; 2026 LADY GRACE. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <div id="bottom-nav" class="fixed bottom-0 left-0 w-full bg-white dark:bg-card-dark shadow-[0_-5px_20px_rgba(0,0,0,0.1)] p-3 flex gap-3 z-50 md:hidden border-t dark:border-gray-800">
+        <a href="tel:0901123456" class="flex-none bg-green-500 text-white w-[50px] rounded-xl flex items-center justify-center text-xl animate-wiggle outline-none cursor-pointer">
+            <i class="fa-solid fa-phone-volume"></i>
+        </a>
+        <a href="#checkout" class="flex-grow bg-cta-gradient text-white rounded-xl font-bold flex flex-col items-center justify-center pb-1 pt-1.5 shadow-md">
+            <span class="text-sm uppercase tracking-wide">Mua ngay giảm 50%</span>
+            <span class="text-xs opacity-90 font-normal">Freeship toàn quốc</span>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+            
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+                themeIcon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                document.documentElement.classList.remove('dark');
+                themeIcon.classList.replace('fa-sun', 'fa-moon');
+            }
+
+            themeToggleBtn.addEventListener('click', function() {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                    themeIcon.classList.replace('fa-sun', 'fa-moon');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                    themeIcon.classList.replace('fa-moon', 'fa-sun');
+                }
+            });
+
+            function updateCountdown() {
+                const now = new Date();
+                const endOfDay = new Date();
+                endOfDay.setHours(23, 59, 59, 999);
+                const diff = endOfDay - now;
+                
+                if (diff <= 0) {
+                    endOfDay.setDate(endOfDay.getDate() + 1);
+                }
+
+                const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
+                const m = Math.floor((diff / 1000 / 60) % 60);
+                const s = Math.floor((diff / 1000) % 60);
+
+                document.getElementById('days').innerText = '00';
+                document.getElementById('hours').innerText = h < 10 ? '0' + h : h;
+                document.getElementById('minutes').innerText = m < 10 ? '0' + m : m;
+                document.getElementById('seconds').innerText = s < 10 ? '0' + s : s;
+            }
+            setInterval(updateCountdown, 1000);
+            updateCountdown();
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetEl = document.querySelector(this.getAttribute('href'));
+                    if (targetEl) {
+                        const yOffset = -20; 
+                        const y = targetEl.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                        window.scrollTo({top: y, behavior: 'smooth'});
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
